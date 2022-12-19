@@ -1,0 +1,30 @@
+
+.container__section{
+    padding: 0px;
+}
+
+
+.container__section--card{
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: var(--color-grey-6);
+    border-radius: var(--radius-default);
+    position: relative;
+}
+
+.section__tag{
+    display: inline-block;
+    background-color: var(--color-grey-3);
+    padding: 4px 12px;
+    border-radius: var(--radius-default);
+    margin-right: 16px;
+    margin-bottom: 96px;
+}
+
+.button__brand--section{
+    display: block;
+    width: 90%;
+    position: absolute;
+    bottom: 38px;
+
+}

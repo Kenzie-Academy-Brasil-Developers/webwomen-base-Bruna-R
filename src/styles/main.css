@@ -1,0 +1,25 @@
+.bg-main{
+    width: 100%;
+    min-width: 320px;
+    height: 100%;
+    background-color: var(--color-grey-5);
+}
+.main__text{
+    font-size: var(--text-2);
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 18px;
+    margin-top: 20px;
+}
+.main__text--title{
+    font-size: var(--title-4);
+    font-weight: 600;
+    line-height: 150%;
+    margin-top: 8px;
+}
+
+.main__text--small{
+    font-size: var(--text-3);
+    padding-right: 18px;
+}
+

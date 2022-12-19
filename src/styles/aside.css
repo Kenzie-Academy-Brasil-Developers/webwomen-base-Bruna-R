@@ -1,0 +1,34 @@
+.container__aside{
+    background-color: var(--color-grey-6);
+    margin-top: 20px;
+    border-radius: var(--radius-default);
+}
+
+.container__cards--vagas{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 16px;
+    border-bottom: 2px solid var(--color-grey-5);
+    padding-bottom: 28px;
+    margin-top: 2rem;
+}
+.card__vagas > h2{
+    font-weight: 600;
+    font-size: var(--title-5);
+    line-height: 27px;
+}
+
+.aside__button--trash{
+    width: 45px;
+    height: 38px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.aside__button--img{
+    max-height: 100%;
+}

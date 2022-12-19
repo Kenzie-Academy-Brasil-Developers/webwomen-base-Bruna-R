@@ -1,0 +1,31 @@
+@media(min-width: 375px){
+  .header-logo{
+    margin-top: 100px;
+    margin-bottom: 60px;
+  }
+}
+@media(min-width: 991px){
+  .container__section{
+    width: 60%;
+  }
+  .section__tag{
+    margin-bottom: 40px;
+  }
+  .button__brand--section{
+    max-width: 274px;
+    right: 38px;
+  }
+  .container__aside{
+    width: 38%;
+    margin-top: 54px;
+    position: sticky;
+    top: 28px;
+  }
+  main{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 16px;
+  }
+}

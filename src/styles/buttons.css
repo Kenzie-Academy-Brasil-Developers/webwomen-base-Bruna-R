@@ -1,0 +1,11 @@
+.button__brand{
+    width: 275px;
+    height: 48px;
+    padding: 12px 50px;
+    border-radius: var(--radius-default);
+    border: none;
+    background-color: var(--color-brand-1);
+    color: var(--color-grey-6);
+    font-weight: 500;
+    font-size: var(--text-2);
+}
