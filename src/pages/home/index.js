@@ -44,6 +44,7 @@ function createCardJobs(job){
     btnJob.classList = "button__brand button__brand--section"
     btnJob.innerText = 'Candidatar'
     btnJob.dataset.id = id
+    btnJob.id = "botao_candidatar_" + id
     btnJob.addEventListener('click', ()=>{
         addEndRemove(btnJob, job)
     })
@@ -96,6 +97,7 @@ function createCardJobsAside(job) {
     btnJobAside.addEventListener('click', ()=>{
         tagLiAside.remove()
         removeVagasData(job)
+        setNameBtnExit(job.id)
     }
 
     )
@@ -151,6 +153,19 @@ function getStorage(){
         vagasData = JSON.parse(vagasLocalStorage)
 
         renderJobsAside(vagasData)
+        setNameBtn()
+}
+
+function setNameBtn() {
+    vagasData.forEach(element => {
+        const btnVaga = document.getElementById("botao_candidatar_" + element.id)
+        btnVaga.innerText = "Remover Candidatura"
+    });
+}
+
+function setNameBtnExit(id){
+    const btnVaga = document.getElementById("botao_candidatar_" + id)
+    btnVaga.innerText = "Candidatar"
 }
 
 renderJobs()
